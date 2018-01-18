@@ -1,0 +1,13 @@
+sqlplus登录oracle数据库：
+sqlplus 账号：scott 密码：tiger。
+
+select * from emp;
+
+注：Oracle查询以  ；  结束语句
+
+用户名：sys sa sysdba  密码：123
+
+select name from v$database;查看当前连接数据名称
+select name from v$controlfile;物理文件所在路径
+select member from v$logfile;日志路径
+select name from v$datafile;数据库路径
